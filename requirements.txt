@@ -1,0 +1,12 @@
+streamlit
+transformers
+torch
+pandas
+matplotlib
+wordcloud
+fpdf
+openai==0.28
+python-dotenv
+loguru
+jmespath
+seaborn
