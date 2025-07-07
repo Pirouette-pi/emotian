@@ -19,7 +19,7 @@ def generate_llm_insight(prompt_path: str) -> dict:
 
     try:
         response = openai.ChatCompletion.create(
-            model="mistralai/mistral-7b-instruct",
+            model= st.secrets["LLM_MODEL"],
             messages=[
                 {"role": "system", "content": "Kamu adalah analis media sosial profesional."},
                 {"role": "user", "content": prompt}
